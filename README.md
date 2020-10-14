@@ -1,0 +1,20 @@
+curl --location --request POST 'http://localhost:8080/api/v1/analyse' \
+--header 'Content-Type: application/json' \
+--data-raw '["unishop/product/list",
+"unishop/category/list",
+"unishop/product/create",
+"kyowon/user/list",
+"commerce/product/create",
+"kyowon/user/create",
+"kyowon/banner/update",
+"unishop/category/update",
+"commerce/product/create",
+"unishop/product/list",
+"unishop/category/list",
+"commerce/product/update",
+"unishop/product/create",
+"kyowon/user/list",
+"commerce/product/delete",
+"kyowon/user/create",
+"kyowon/banner/update",
+"unishop/category/delete"]'
